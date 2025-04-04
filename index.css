@@ -17,7 +17,6 @@ p {
   line-height: 1.5;
 }
 button {
-  border: none;
   color: white;
 }
 
@@ -78,14 +77,20 @@ button {
 .article .content button {
   padding: 10px 15px;
   margin: 50px 5px 20px 0;
-  color: white;
-  border: none;
 }
+
 .shop-btn {
   background-color: #ff6a2c;
+  color: white;
 }
 .contact-btn {
   background-color: #000;
+  color: white;
+}
+.shop-btn:hover,
+.contact-btn:hover {
+  color: #000;
+  background-color: white;
 }
 .article .fruits-image img {
   width: 100%;
@@ -142,7 +147,10 @@ button {
   background-color: #000;
   margin: 20px 0;
 }
-
+.read-btn:hover {
+  color: #000;
+  background-color: white;
+}
 .fresh-fruit {
   margin: 20px 0;
 
@@ -164,6 +172,10 @@ button {
   color: white;
   padding: 8px 18px;
   margin: 25px 0;
+}
+.fresh-fruit .content .buy-btn:hover {
+  color: #000;
+  background-color: white;
 }
 .fresh-fruit .fruits-img {
   float: right;
@@ -219,12 +231,13 @@ button {
   padding-top: 50px;
 }
 .inputs-fields .btn {
-  padding: 5px 25px;
+  padding: 8px 25px;
   color: white;
   background-color: #ff6a2c;
-  border: none;
   margin: 15px 0;
+  border: none;
 }
+
 .fields {
   width: 100%;
   position: relative;
@@ -269,8 +282,9 @@ button {
 
 .info-sec button {
   background-color: #ff6a2c;
-  padding: 5px 20px;
+  padding: 8px 20px;
   margin: 10px 0;
+  border: none;
 }
 .footer {
   background-color: #f8f5f7;
