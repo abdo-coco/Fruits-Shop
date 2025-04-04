@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  /* background-color: #f8f5f7; */
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+p {
+  font-size: 14px;
+  color: #000000ad;
+  line-height: 1.5;
+}
+button {
+  border: none;
+  color: white;
+}
+
+.first-page {
+  margin-bottom: 50px;
+  background-color: inherit;
+}
+.project-logo {
+  float: left;
+}
+.leader-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-content {
+  float: right;
+}
+.leader-content .nav-content ul li {
+  display: inline-block;
+  margin: 25px 20px;
+}
+.nav-content ul li a {
+  text-decoration: none;
+  color: #000000ad;
+}
+.project-logo img {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0px;
+  vertical-align: middle;
+}
+
+.project-logo span {
+  font-weight: bold;
+  vertical-align: middle;
+}
+.article {
+  margin-top: 50px;
+}
+.article .content {
+  width: 50%;
+  float: left;
+}
+.article .fruits-image {
+  float: right;
+  margin-right: 35px;
+  width: 45%;
+}
+.article .content h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.article .content button {
+  padding: 10px 15px;
+  margin: 50px 5px 20px 0;
+  color: white;
+  border: none;
+}
+.shop-btn {
+  background-color: #ff6a2c;
+}
+.contact-btn {
+  background-color: #000;
+}
+.article .fruits-image img {
+  width: 100%;
+  height: auto;
+}
+.second-page {
+  /* background-color: #f8f5f7; */
+  margin-top: 0px;
+  padding: 50px 0;
+}
+.header {
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 35px;
+}
+.header p {
+  font-size: 14px;
+}
+
+.service span {
+  display: block;
+  color: orange;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.service {
+  text-align: center;
+  width: calc(100% / 3 - 20px);
+  border: 0.1px solid #00000015;
+  display: inline-block;
+}
+.service:hover {
+  border-top: 5px orange solid;
+}
+.grapes,
+.orange {
+  margin-right: 25px;
+}
+
+.service img {
+  width: 35px;
+  height: 40px;
+  margin: 40px 0 10px 0;
+}
+.service p {
+  padding: 5px 5px 20px 5px;
+}
+.read-more-btn {
+  text-align: center;
+}
+.read-btn {
+  padding: 8px 18px;
+  color: white;
+  background-color: #000;
+  margin: 20px 0;
+}
+
+.fresh-fruit {
+  margin: 20px 0;
+
+  background-color: white;
+}
+.fresh-fruit .content {
+  float: left;
+  width: 70%;
+  margin-bottom: 50px;
+  margin-right: 4%;
+}
+.fresh-fruit .content h3 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.fresh-fruit .content .buy-btn {
+  background-color: #000;
+  color: white;
+  padding: 8px 18px;
+  margin: 25px 0;
+}
+.fresh-fruit .fruits-img {
+  float: right;
+  width: 25%;
+}
+.fresh-fruit .fruits-img .grapes {
+  height: 140px;
+  margin-left: 30px;
+}
+.background-section {
+  width: 100%;
+  background-image: url(images/tasty.png);
+  height: 400px;
+  background-size: cover;
+}
+.background-section .tasty-text {
+  position: relative;
+}
+.background-section .tasty-text p {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+}
+.client-content {
+  margin: 20px 0;
+}
+.client-content span {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.client-content img {
+  width: 250px;
+  height: 200px;
+}
+
+.inputs-fields .fld {
+  display: block;
+  width: 55%;
+  padding: 20px 0 0 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.inputs-fields .msg {
+  padding-top: 50px;
+}
+.inputs-fields .btn {
+  padding: 5px 25px;
+  color: white;
+  background-color: #ff6a2c;
+  border: none;
+  margin: 15px 0;
+}
+.fields {
+  width: 100%;
+  position: relative;
+  margin: 150px 0;
+}
+.image-field {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.image-field img {
+  width: 100%;
+  height: 250px;
+}
+.class-T {
+  display: inline-block;
+  width: calc(100% / 8);
+  margin: 40px;
+}
+.class-T span,
+.info-sec span {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.info-sec {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.info-sec .icons img {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0;
+}
+.sub {
+  margin-top: 20px;
+}
+
+.info-sec button {
+  background-color: #ff6a2c;
+  padding: 5px 20px;
+  margin: 10px 0;
+}
+.footer {
+  background-color: #f8f5f7;
+  text-align: center;
+}
+.footer p {
+  padding: 10px 0;
+  text-transform: capitalize;
+}
